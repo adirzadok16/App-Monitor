@@ -281,7 +281,7 @@ public class AppService extends Service {
     private String getForegroundApp() {
         UsageStatsManager usageStatsManager = (UsageStatsManager) getSystemService(Context.USAGE_STATS_SERVICE);
         long time = System.currentTimeMillis();
-        List<UsageStats> usageStatsList = usageStatsManager.queryUsageStats(UsageStatsManager.INTERVAL_DAILY, time - 10000, time);
+        List<UsageStats> usageStatsList = usageStatsManager.queryUsageStats(UsageStatsManager.INTERVAL_DAILY, time - 5000, time);
 
         if (usageStatsList == null || usageStatsList.isEmpty()) {
             Log.d(TAG, "No usage stats available. Ensure usage access is granted.");
