@@ -36,7 +36,7 @@ The registration page in MealMatch app lets users sign up by providing key detai
 ## HomeFragment
 The HomeFragment serves as the main screen of the application. It provides an overview of the user's app usage statistics, including total screen time and usage per app.
 
-<img src="https://github.com/user-attachments/assets/91ee441f-9aee-490a-8534-35a83e3afb4b" width="200" height="400"> 
+<img src="https://github.com/user-attachments/assets/b60b124e-bf5e-46a0-9162-e65a59987b41" width="200" height="400"> 
 
 ## TimerFragment
 In the Timer Fragment, the user can select apps to limit their usage time and set a specific time limit for each one. This fragment also displays a list of all selected apps along with their assigned time limits.
