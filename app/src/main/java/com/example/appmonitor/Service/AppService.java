@@ -60,7 +60,6 @@ public class AppService extends Service {
             @Override
             public void run() {
 
-                if (isSupportedDevice()) {
                     if(appInfoList.isEmpty()){
                         Log.d("SERVICE!!!!","List is empty ");
                     }
@@ -170,9 +169,7 @@ public class AppService extends Service {
                     if (foregroundApp.contains("No App Detected")) {
                         Log.d(TAG, "Retrying to get foreground app...");
                     }
-                } else {
-                    Log.d(TAG, "Device not supported for brightness adjustment.");
-                }
+
 
                 resetTimeUseAtMidnight();
 
@@ -320,9 +317,7 @@ public class AppService extends Service {
         }
     }
 
-    private boolean isSupportedDevice() {
-        return Build.MODEL.equals("SM-A715F") || Build.VERSION.SDK_INT >= VERSION_CODES.Q;
-    }
+
 
     // Fetch the app information list from Firebase and start the handler
     private void fetchAppInfoListAndStartHandler() {
