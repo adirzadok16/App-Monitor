@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppMonitor</string>
+    <string name="home">Home</string>
+    <string name="app_title">App</string>
+    <string name="time_title">Time</string>
+    <string name="app_photo">app_photo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="timer">Timer</string>
+    <string name="h">H</string>
+    <string name="app_use_monitor">App Use Monitor</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="log_out">Log Out</string>
+</resources>

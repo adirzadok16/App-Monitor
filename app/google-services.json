@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1015735227746",
+    "firebase_url": "https://appmonitorproject-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "appmonitorproject",
+    "storage_bucket": "appmonitorproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015735227746:android:175b3e885720afea51083b",
+        "android_client_info": {
+          "package_name": "com.example.appmonitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhqEYBb0IXsQ8Epw5k0DpRbSjLnCq046w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
